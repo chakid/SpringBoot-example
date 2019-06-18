@@ -1,7 +1,7 @@
 package com.chakid.config.config;
 
 
-import com.atguigu.springboot.service.HelloService;
+import com.chakid.config.service.HelloService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
