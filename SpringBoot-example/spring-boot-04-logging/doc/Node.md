@@ -152,12 +152,12 @@ logging.pattern.console=%d{yyyy-MM-dd} [%thread] %-5level %logger{50} - %msg%n
 # 指定文件中日志输出的格式
 logging.pattern.file=%d{yyyy-MM-dd} === [%thread] === %-5level === %logger{50} ==== %msg%n
 ```
+<br/>
 
-<br>
  在当前磁盘的根路径下创建spring文件夹和里面的log文件夹；使用 spring.log 作为默认文件
 ![](images/spring_log.png)
 
-<br>
+<br/>
 
 | logging.file | logging.path | Example  | Description             |
 | ------------ | ------------ | -------- | ----------------------- |
