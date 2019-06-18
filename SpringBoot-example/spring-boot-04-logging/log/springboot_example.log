@@ -1,0 +1,11 @@
+2019-06-18 === [main] === INFO  === com.chakid.logging.LoggingApplicationTests ==== Starting LoggingApplicationTests on DESKTOP-3B1KA3L with PID 12692 (started by Chakid in F:\IdeaProjects\SpringBoot-example\SpringBoot-example\spring-boot-04-logging)
+2019-06-18 === [main] === DEBUG === com.chakid.logging.LoggingApplicationTests ==== Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-18 === [main] === INFO  === com.chakid.logging.LoggingApplicationTests ==== No active profile set, falling back to default profiles: default
+2019-06-18 === [main] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 === [main] === INFO  === com.chakid.logging.LoggingApplicationTests ==== Started LoggingApplicationTests in 2.391 seconds (JVM running for 3.36)
+2019-06-18 === [main] === TRACE === com.chakid.logging.LoggingApplicationTests ==== 这是trace跟踪信息
+2019-06-18 === [main] === DEBUG === com.chakid.logging.LoggingApplicationTests ==== 这是debug调试信息
+2019-06-18 === [main] === INFO  === com.chakid.logging.LoggingApplicationTests ==== 这是info日志
+2019-06-18 === [main] === WARN  === com.chakid.logging.LoggingApplicationTests ==== 这是warn警告信息
+2019-06-18 === [main] === ERROR === com.chakid.logging.LoggingApplicationTests ==== 这是error错误信息
+2019-06-18 === [Thread-2] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
