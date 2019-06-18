@@ -249,19 +249,19 @@ slf4j+log4j的方式；pom里面配置
 
 
 
-切换为log4j2 pom里面配置
+切换为log4j2 pom里面配置 排除原先的：```starter-logging``` 然后配置：```starter-log4j2```
 
 ```xml
-   <dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <exclusions>
+        <exclusion>
+            <artifactId>spring-boot-starter-logging</artifactId>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <exclusions>
-                <exclusion>
-                    <artifactId>spring-boot-starter-logging</artifactId>
-                    <groupId>org.springframework.boot</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+        </exclusion>
+    </exclusions>
+</dependency>
 
 <dependency>
   <groupId>org.springframework.boot</groupId>
