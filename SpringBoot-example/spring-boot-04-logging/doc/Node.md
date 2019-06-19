@@ -101,6 +101,9 @@ public abstract class LogFactory {
 
 SpringBoot默认帮我们配置好了日志；
 
+代码实现是在测试类中进行的
+
+
 ```java
 	//记录器
 	Logger logger = LoggerFactory.getLogger(getClass());
